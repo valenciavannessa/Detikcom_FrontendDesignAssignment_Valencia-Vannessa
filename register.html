@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #047CBC;">
       <div class="container-fluid">
-        <a href="#"><img src="detik.PNG" style="width: 140px; margin-left: 50px;"></a>
+        <a href="index.html"><img src="detik.PNG" style="width: 140px; margin-left: 50px;"></a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
           data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -55,25 +55,27 @@
 
           <form class="row g-3 needs-validation">
             <div class="mt-2">
-              <input name="dari" required type="text" class="form-control" id="formGroupExampleInput"  placeholder="Ex : Semarang (SRG)">
+              <input name="dari" required type="text" class="form-control" id="formGroupExampleInput"  placeholder="Nama Perusahaan">
             </div>
             <div class="mt-2">
-              <input name="ke" required type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex : Bangkok (BKKA)">
+              <input name="ke" required type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
             </div>
             <div class="mt-2">
-              <input name="tanggal_berangkat" required type="date" class="form-control" id="formGroupExampleInput" placeholder="22/11/2022">
+              <input name="ke" required type="text" class="form-control" id="formGroupExampleInput" placeholder="Nomor Telepon">
             </div>
             <div class="mt-2">
-              <input name="tanggal_pulang" required type="date" class="form-control" id="formGroupExampleInput" placeholder="22/11/2022">
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Tentang Perusahaan [Max. 200 character]" rows="7"></textarea>
             </div>
-            <div class="md-6 mt-2">
-              <label for="inputState" class="form-label">Kelas Penerbangan</label>
-              <select name="kelas_penerbangan" required id="inputState" class="form-select">
-                <option value="Ekonomi">Ekonomi</option>
-                <option value="Bisnis">Bisnis</option>
-                <option value="Kelas Satu">Kelas Satu</option>
-              </select>
+            
+            <div class="input-group">
+              <input type="file" class="form-control" placeholder="Recipient's username">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
             </div>
+            
+            <div class="mt-2">
+              <input name="ke" required type="text" class="form-control" id="formGroupExampleInput" placeholder="Link website">
+            </div>
+            
 
           <button type="button" class="btn btn-light" style="background-color: #047CBC; color: white; width: 200px;" href="">Register</button>
         </div>
